@@ -439,16 +439,23 @@ margin: 0px 0px 0px 20px;
 header .song_side{
   z-index: 2;
 }
+.archit{
+  text-decoration: none;
+  color: white;
+  font-weight:600;
+  font-style:oblique;
+}
 header .song_side::before{
   content: ' ';
   position: absolute;
   width: 40vw;
-  height: 300px;
-  left: 40%;
-  background: url(banushali_image_.png) ;
+  height: 320px;
+  left: 60%;
+  background: url(artists_image/try-removebg-preview.png) ;
   overflow: hidden;
   background-repeat: no-repeat;
   z-index: -1;
+  top: 10%;
 }
 
 header .song_side nav{

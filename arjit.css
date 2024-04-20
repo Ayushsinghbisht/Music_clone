@@ -713,6 +713,12 @@ cursor: pointer;
 transition: 0.3s linear;
 opacity: 0;
 }
+.archit{
+  text-decoration: none;
+  color: white;
+  font-weight:600;
+  font-style:oblique;
+}
 header .song_side .popular_song .pop_song li:hover .img_play .bi {
 
 opacity: 1;

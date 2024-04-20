@@ -631,6 +631,12 @@ header .song_side .content .buttons button{
   cursor: pointer;
   transition: 0.3s linear;
 }
+.archit{
+  text-decoration: none;
+  color: white;
+  font-weight:600;
+  font-style:oblique;
+}
 header .song_side .content .buttons button:nth-child(2){
   background: none;
   color: #36e2ec;
