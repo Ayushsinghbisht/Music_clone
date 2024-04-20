@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bhanusali.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>spotify_clone</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+               
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+
+            </div>  
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img class="Ayush" src="images/01_vaaste_image.jpeg" alt="">
+                    <h5>vaaste <br> <div class="subtitle">
+                        banushali
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="images/02_Thank You God_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="images/03_Naina Milayke_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="images/04_Leja Re_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="images/05_O Maahi_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="images/06_Ve Kamleye_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="images/07_Lutt Putt Gaya_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="images/08_Jawan Chaleya_image.jpg" alt="">
+                    <h5>milo na tum mile <br> <div class="subtitle">
+                         sharma
+                    </div></h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="8"></i>
+                </li>
+                
+
+
+            </div>
+
+
+        </div>
+        
+        <div class="song_side">
+
+            <nav>
+                <ul>
+                    <a href="index.html"><li>discover <span></span></li></a>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="search">
+                    <div class="search_results">
+
+                        <!-- <a href="" class="card">
+                            <img src="images/1.jpg">
+                            <div class="content">
+                                Vaaste
+                                <div class="subtitle">
+                                    Bhanushali
+                                </div>
+                            </div>
+                        </a> -->
+                        
+
+
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="logo.png" alt="">
+                </div>
+            </nav>
+
+            <div class="content">
+                <h1>Arjit Singh</h1>
+                <p>vaaste ja bhi du mai gawa na bhi du<br>kismato ka likha mood du </p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Follow</button>
+                </div>
+            </div>
+
+
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/arjit_images/9.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <!-- <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/10_Brown rang_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/11_Blue Eyes_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/12_Dope Shope_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/13_Theekh Hu Mei_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/14_Fake ones_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/15_Good Boy_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/16_Still Number 1_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/17_O Mere Humnava_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="17"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+
+                            <img src="images/18_Ishq Di Gali Vich No Entry_image.jpg" alt="">
+                            <i class="bi playlistplay bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5>vaaste <br> <div class="subtitle">
+                            banushali 
+                        </div></h5>
+                    </li> -->
+                </div>
+            </div>
+
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artist</h4>
+                    <div class="btn">
+                        <i class="bi bi-arrow-left-short" id="pop_artist_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_artist_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="arjit.html"> <img src="artists_image/arjitsingh_image-removebg-preview.png"></a>
+                     </li>
+                     <li>
+                         <a href="shreya.html"><img src="artists_image/shreya_ghosal.jpeg"></a>
+                     </li>
+                     <li>
+                         <a href="bhanusali.html"><img src="artists_image/banushali_image_.png"></a>
+                     </li>
+                    <!-- <li>
+                        <img src="artists_image/emiway-removebg-preview.png">
+                    </li>
+                    <li>
+                        <img src="artists_image/sonu_nigam-removebg-preview.png">
+                    </li> -->
+                    <!-- <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li> -->
+                    <!-- <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                    <li>
+                        <img src="artists_image/arjitsingh_image.jpeg">
+                    </li>
+                   -->
+                  
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave" >
+                <div class="wave1" id="wave1"></div>
+                <div class="wave2" id="wave2"></div>
+                <div class="wave3" id="wave3"></div>
+                <div class="wave4"></div>
+            </div>
+            <img src="images/bhanusali_images/1.jpg" alt="" id="poster_master_play">
+            <h5 id="title">
+                Uda gulaal
+                <div class="subtitle">Dhvani Bhanushali </div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back_icon" ></i>
+                <i class="bi bi-play-fill test" id="masterPlay" ></i>
+                <!-- <i class="bi bi-play-fill" id="masterPlay" onclick="myFunction()"></i> -->
+                <!-- <i class="bi bi-pause-fill"></i> -->
+                <i class="bi bi-skip-end-fill" id="next_icon" ></i>
+               <a href="music/bhanusali_songs/1.mp3" id="music_download" download=""> <i class="bi bi-download " ></i></a>
+            </div>
+            <span id="currentstart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot" id="dot"></div>
+
+               
+            </div>
+            <span id="currentend">0:60</span>
+            <div class="vol">
+                <i class="bi bi-volume-down" id="vol_icon"></i>
+                <input type="range" id="vol" min="0" max="100">
+                <div class="vol_bar" id="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+                
+
+            </div>
+        </div>
+    </header>
+
+    <script src="bhanusali.js"></script>
+</body>
+</html>

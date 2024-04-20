@@ -1,4 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
 body {
+    
     font-family: 'poppins',sans-serif;
     width:100%;
     height: 100vh;
@@ -6,6 +12,7 @@ body {
     display: grid;
     place-items: center;
 }
+/*  */
 
 header{
     height: 95%;
@@ -293,6 +300,8 @@ display: flex;
 align-items: center;
 overflow: hidden;
 margin-left: 10px;
+color: white;
+text-decoration: none;
 }
 .master_play .icon .bi:nth-child(3){
   
@@ -433,7 +442,7 @@ header .song_side{
 header .song_side::before{
   content: ' ';
   position: absolute;
-  width: 100%;
+  width: 40vw;
   height: 300px;
   left: 40%;
   background: url(banushali_image_.png) ;
@@ -481,6 +490,7 @@ header .song_side nav ul li:nth-child(1){
 }
 header .song_side nav .search{
  position: relative;
+ 
  width: 40%;
  padding: 1px 10px;
  border-radius: 20px;
@@ -488,6 +498,65 @@ header .song_side nav .search{
  color: rgb(234, 223, 223);
  
 }
+header .song_side nav .search .search_results{
+ position: absolute;
+ left: -15px;
+ width: 100%;
+ height: 200px;
+ /* border: 2px solid white; */
+ z-index: 99999999999;
+ border-radius: 10px;
+ margin-top: 10px;
+ overflow: auto;
+
+ /* display: flex; */
+}
+header .song_side nav .search .search_results::-webkit-scrollbar{
+ display: none;
+}
+header .song_side nav .search .search_results .card{
+width: 100%;
+min-height: 45px;
+/* border: 1px solid white; */
+/* z-index: 99999999999; */
+display: flex;
+align-items: center;
+margin-bottom: 5px;
+background: rgb(225, 212, 186,0.1);
+text-decoration: none;
+display: none;
+ 
+}
+header .song_side nav .search .search_results .card img{
+width: 36px;
+height: 36px;
+border-radius: 5px;
+
+ 
+}
+header .song_side nav .search .search_results .card .content{
+width:80%;
+height: 100%;
+padding: 0;
+font-size: 13px;
+font-weight: 600;
+color: white;
+/* border: 1px solid white; */
+
+
+
+
+ 
+}
+header .song_side nav .search .search_results .card .subtitle{
+font-size: 11px;
+/* color: white; */
+font-weight: 500;
+}
+
+
+
+
 header .song_side nav .search::before{
 content: '';
 position:absolute;
@@ -524,10 +593,12 @@ overflow: hidden;
 }
 header .song_side nav .user img{
 width: 50px;
+/* border: 1px solid white; */
 height: 30px;
 position: relative;
 right: 10px;
 box-shadow: 2px 2px 8px #121213;
+/* overflow: hidden; */
 }
 header .song_side .content{
 width: 90%;
@@ -580,6 +651,9 @@ header .song_side .popular_song{
   margin: auto;
   margin-top: 15px;
   /* border: 1px solid white; */
+}
+h5{
+  padding-top: 10px;
 }
 header .song_side .popular_song .h4{
  display: flex;
@@ -656,7 +730,7 @@ overflow: hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
 position: relative;
-bottom: 10px;
+/* bottom: 10px; */
 
 
 }
